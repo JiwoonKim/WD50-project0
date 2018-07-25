@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="traveled">
+<html>
     <head>
         <title>Traveling the World</title>
         <meta charset="utf-8">
@@ -9,7 +9,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="mystyle.css">
     </head>
-    <body class="traveled">
+    <body>
         <!-- navigation bar at the top of the page -->
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
@@ -24,8 +24,14 @@
                 </ul>
             </div>
         </nav>
-        <!-- display map -->
-        <div id="map"></div>
+        <!-- display map and table of log of travels -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6" class="thumbnail">
+                    <div id="map" class="z-depth-1-half map-container" style="height: 400px"></div>
+                </div>
+            </div>
+        </div>
         <script>
             function initMap()
             {
@@ -35,7 +41,7 @@
 
                 // initialize map
                 var map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 2,
+                    zoom: 3,
                     center: places["seoul"],
                 });
 
