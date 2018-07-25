@@ -3,11 +3,14 @@
 }
 
 #map {
-    height: 600px;
     transition: height 1s;
 }
-
-@media (max-width: 800px) {
+@media (min-width: 800px) {
+    #map {
+        height: 600px;
+    }
+}
+@media (max-width: 799px) {
     #map {
         height:400px;
     }
