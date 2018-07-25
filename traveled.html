@@ -32,6 +32,7 @@
             </div>
         </div>
         <script>
+        /*
             function initMap()
             {
                 // set center and store in places for markers
@@ -64,6 +65,13 @@
                     var marker = new google.maps.Marker({position: places[key], map: map, title: key});
                     markers.push(marker);
                 }
+            } */
+            var map;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: {lat: -34.397, lng: 150.644},
+                    zoom: 8
+                });
             }
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkLaUeFf7_EzU8OWmBzf3MJme3LeD6SoA&callback=initMap" async defer></script>
