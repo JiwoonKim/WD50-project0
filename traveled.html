@@ -31,8 +31,40 @@
             </div>
         </div>
         <script>
-            let markers = [];
-            var map = google
+            function initMap()
+            {
+                // set center and store in places for markers
+                var places = {};
+                places["seoul"] = {lat: 37.566535, lng: 126.977969};
+
+                // initialize map
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 2,
+                    center: places["seoul"],
+                });
+
+                // store geolocation for traveled places
+                places["tokyo"] = {lat: 35.71886, lng: 139.71027};
+                places["sapporo"] = {lat: 43.0952, lng: 141.3402};
+                places["shanghai"] = {lat: 31.23722, lng: 121.36904};
+                places["taiwan"] = {lat: 24.55591, lng: 121.06581};
+                places["macau"] = {lat: 22.20866, lng: 113.50725};
+                places["hong kong"] = {lat: 22.31674, lng: 114.13806};
+                places["singapore"] = {lat: 1.3547, lng: 103.88375};
+                places["malaysia"] = {lat: 3.16245, lng: 101.6934};
+                places["indonesia"] = {lat: -4.18711, lng: 122.14006};
+                places["egypt"] = {lat: 26.02993, lng: 29.67539};
+                places["albany"] = {lat: 37.88642, lng: -122.3018};
+
+                // create markers for traveled places
+                var markers = [];
+                for (let key in places)
+                {
+                    var marker = new google.maps.Marker({position: places[key], map: map, title: key});
+                    markers.push(marker);
+                }
+            }
         </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=initMap"></script>
     </body>
 </html>
