@@ -1,7 +1,9 @@
+/* about.html */
 #about_img {
     width: 100%;
 }
 
+/* traveled.html */
 #map {
     transition: height 1s;
 }
@@ -19,4 +21,10 @@
 
 .table-head {
     background-color: LightGray;
+}
+
+/* portfolio.html */
+.card {
+    margin: 5px;
+    width: 18rem;
 }
