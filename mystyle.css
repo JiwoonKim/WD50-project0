@@ -1,3 +1,8 @@
+/* application overall */
+.container-fluid {
+    padding: 15px;
+}
+
 /* about.html */
 #about_img {
     width: 100%;
