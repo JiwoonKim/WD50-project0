@@ -1,13 +1,21 @@
 /* application overall */
 @media (min-width: 1200px) {
     .container-fluid     {
-        width: 90%;
-        margin-top: 20px;
+        width: 85%;
+        margin-top: 40px;
     }
 }
 
+.page-header {
+    padding: 15px;
+}
+
 /* about.html */
-#about_img {
+#about-container {
+    margin-top: 5%;
+}
+
+#about-img {
     width: 100%;
 }
 
