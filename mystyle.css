@@ -5,7 +5,6 @@
         margin-top: 40px;
     }
 }
-
 .page-header {
     padding: 15px;
 }
@@ -14,16 +13,17 @@
 #about-container {
     margin-top: 5%;
 }
-
 #about-img {
     width: 100%;
+}
+#quote {
+    font-style: italic;
 }
 
 /* traveled.html */
 #map {
     transition: height 1s;
 }
-
 @media (min-width: 800px) {
     #map {
         height: 600px;
@@ -34,11 +34,9 @@
         height: 400px;
     }
 }
-
 .table-head {
     background-color: LightGray;
 }
-
 .table-p {
     margin: 0;
 }
