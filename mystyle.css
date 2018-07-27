@@ -1,7 +1,8 @@
 /* application overall */
 @media (min-width: 1000px) {
     .container-fluid     {
-        margin: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         margin-right: 60px;
         margin-left: 60px;
     }
