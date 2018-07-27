@@ -1,6 +1,9 @@
 /* application overall */
-.container-fluid {
-    margin: 170px;
+@media (min-width: 1000px) {
+    .container-fluid     {
+        margin-right: 170px;
+        margin-left: 170px;
+    }
 }
 
 /* about.html */
