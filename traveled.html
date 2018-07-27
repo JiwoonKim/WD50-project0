@@ -35,13 +35,13 @@
             </div>
         </nav>
         <!-- display map and table of log of travels -->
-        <div class="container-fluid">
+        <div class="container">
+            <h1>Travel Log | 여행기록</h1>
             <div class="row">
                 <div class="col-md-6">
                     <div id="map" class="z-depth-1-half map-container"></div>
                 </div>
                 <div class="col-md-6">
-                    <h1>Travel Log | 여행기록</h1>
                     <br>
                     <table class="table">
                         <thead class="table-head">
@@ -139,13 +139,11 @@
                 // set center and store in places for markers
                 var places = {};
                 places["seoul"] = {lat: 37.566535, lng: 126.977969};
-
                 // initialize map
                 var map = new google.maps.Map(document.getElementById('map'), {
                     zoom: 3,
                     center: places["seoul"],
                 });
-
                 // store geolocation for traveled places
                 places["tokyo"] = {lat: 35.71886, lng: 139.71027};
                 places["sapporo"] = {lat: 43.0952, lng: 141.3402};
@@ -158,7 +156,6 @@
                 places["indonesia"] = {lat: -4.18711, lng: 122.14006};
                 places["egypt"] = {lat: 26.02993, lng: 29.67539};
                 places["albany"] = {lat: 37.88642, lng: -122.3018};
-
                 // create markers for traveled places
                 var markers = [];
                 for (let key in places)
@@ -168,7 +165,6 @@
                 }
             }
     </script>
-
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkLaUeFf7_EzU8OWmBzf3MJme3LeD6SoA&callback=initMap" async defer></script>
     </body>
 </html>
