@@ -14,9 +14,6 @@
 }
 
 @media (min-width: 800px) {
-    table {
-        height: 600px;
-    }
     #map {
         height: 600px;
     }
@@ -29,6 +26,10 @@
 
 .table-head {
     background-color: LightGray;
+}
+
+.table-p {
+    margin: 0;
 }
 
 /* portfolio.html */
