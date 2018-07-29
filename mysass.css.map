@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAEA,OAAQ;EACJ,gBAAgB,EAHL,6DAAsF",
+"mappings": "AAEA,OAAQ;EACJ,UAAU,EAHI,sEAAsE",
 "sources": ["mysass.scss"],
 "names": [],
 "file": "mysass.css"

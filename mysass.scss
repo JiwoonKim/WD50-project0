@@ -1,5 +1,5 @@
-$navbar-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,166,255,1) 50%, rgba(0,212,255,1) 100%);
+$navbar-gradient: linear-gradient(to right, #6f5ac8, #6362d2, #536adb, #3d72e3, #127aeb);
 
 .navbar {
-    background: $navbar-color;
+    background: $navbar-gradient;
 }
