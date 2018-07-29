@@ -1,4 +1,8 @@
 /* application overall */
+body {
+    background-color: LightGray;
+}
+
 @media (min-width: 1200px) {
     .container-fluid     {
         width: 85%;
@@ -6,7 +10,7 @@
     }
 }
 .page-header {
-    padding: 15px;
+    padding-bottom: 15px;
 }
 
 /* about.html */
@@ -44,4 +48,9 @@
 /* portfolio.html */
 .card {
     margin: 15px;
+}
+
+/* challenges.html */
+.carousel-item {
+    width: ;
 }
