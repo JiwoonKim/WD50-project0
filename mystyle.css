@@ -12,9 +12,14 @@ body {
     padding: 20px;
     text-align: center;
     font-family: 'Nanum Brush Script', cursive;
-    font-size: 3.5rem;
+    font-size: 5rem;
 }
-
+.col-md-6 {
+    padding-bottom: 20px;
+}
+.col-md-4 {
+    padding: 30px;
+}
 
 /* about.html */
 #about-container {
@@ -28,7 +33,7 @@ body {
 }
 
 /* traveled.html */
-@media (min-width: 744px) {
+@media (min-width: 768px) {
     .travel-row {
         height: auto;
     }
@@ -36,7 +41,7 @@ body {
         height: 100%;
     }
 }
-@media (max-width: 743px) {
+@media (max-width: 767px) {
     #map {
         height: 400px;
     }
@@ -50,7 +55,7 @@ body {
 
 /* portfolio.html */
 .card {
-    margin: 15px;
+
 }
 
 /* challenges.html */
