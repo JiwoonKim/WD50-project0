@@ -2,9 +2,8 @@
 body {
     background-color: antiquewhite;
 }
-
 @media (min-width: 1200px) {
-    .container-fluid     {
+    .container-fluid {
         width: 85%;
     }
 }
@@ -12,9 +11,15 @@ body {
     padding: 20px;
     text-align: center;
     font-family: 'Nanum Brush Script', cursive;
-    font-size: 5rem;
+    transform: font-size 0.5s;
+}
+@media (min-width: 768px) {
+    .page-head {
+        font-size: 5rem;
+    }
 }
 .col-md-6 {
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 .col-md-4 {
@@ -36,6 +41,9 @@ body {
 }
 
 /* traveled.html */
+#map {
+    transform: height 1s;
+}
 @media (min-width: 768px) {
     .travel-row {
         height: auto;
