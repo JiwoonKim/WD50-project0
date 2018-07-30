@@ -3,13 +3,17 @@
 
 .col-md-6 {
   font-family: 'Nanum Brush Script', cursive;
-  font-size: 2rem; }
+  font-size: 1.5rem; }
   .col-md-6 #name {
     font-size: 4rem; }
   .col-md-6 #quote {
-    font-style: italic; }
+    font-style: italic;
+    color: gray; }
   .col-md-6 #intro {
     font-family: 'Dosis', sans-serif; }
+  .col-md-6 .table {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem; }
 
 .card, .portfolio-card, .complete-card, .future-card {
   border-radius: 10px;

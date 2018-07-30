@@ -4,6 +4,10 @@ body {
 }
 .navbar {
     font-family: 'Nanum Brush Script', cursive;
+    font-size: 1.5rem;
+}
+.navbar-brand {
+    font-size: 2rem;
 }
 @media (min-width: 1200px) {
     .container-fluid {
@@ -27,7 +31,7 @@ body {
 
 /* about.html */
 #about-container {
-    margin-top: 2rem;
+    margin-top: 5%;
     height: 80%;
 }
 #about-img {
