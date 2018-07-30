@@ -29,8 +29,15 @@ body {
 .travel-row {
     height: auto;
 }
-#map {
-    height: 100%;
+@media (min-width: 744px) {
+    #map {
+        height: 100%;
+    }
+}
+@media (max-width: 743px) {
+    #map {
+        height: 400px;
+    }
 }
 .table {
     background-color: floralwhite;
