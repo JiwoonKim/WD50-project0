@@ -5,16 +5,21 @@ $navbar-gradient: linear-gradient(to right, #23c4da, #00b5e4, #00a4ed, #0091f0, 
 
 .col-md-6 {
     font-family: 'Nanum Brush Script', cursive;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
     #name {
         font-size: 4rem;
     }
     #quote {
         font-style: italic;
+        color: gray;
     }
     #intro {
         font-family: 'Dosis', sans-serif;
+    }
+    .table {
+        font-family: 'Dosis', sans-serif;
+        font-size: 1rem;
     }
 }
 
