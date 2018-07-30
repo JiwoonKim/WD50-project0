@@ -2,6 +2,9 @@
 body {
     background-color: antiquewhite;
 }
+.navbar {
+    font-family: 'Nanum Brush Script', cursive;
+}
 @media (min-width: 1200px) {
     .container-fluid {
         width: 85%;
