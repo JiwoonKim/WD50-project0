@@ -26,10 +26,10 @@ body {
 }
 
 /* traveled.html */
-.travel-row {
-    height: auto;
-}
 @media (min-width: 744px) {
+    .travel-row {
+        height: auto;
+    }
     #map {
         height: 100%;
     }
