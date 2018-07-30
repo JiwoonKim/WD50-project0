@@ -19,7 +19,7 @@
   border-radius: 10px;
   padding: 30px;
   border: 0; }
-  .card .card-title .card-text, .portfolio-card .card-title .card-text, .complete-card .card-title .card-text, .future-card .card-title .card-text {
+  .card .card-title, .portfolio-card .card-title, .complete-card .card-title, .future-card .card-title, .card .card-text, .portfolio-card .card-text, .complete-card .card-text, .future-card .card-text {
     font-family: 'Dosis', sans-serif;
     color: white; }
 

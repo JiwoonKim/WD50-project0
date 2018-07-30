@@ -25,7 +25,7 @@ $navbar-gradient: linear-gradient(to right, #23c4da, #00b5e4, #00a4ed, #0091f0, 
     border-radius: 10px;
     padding: 30px;
     border: 0;
-    .card-title .card-text {
+    .card-title, .card-text {
         font-family: 'Dosis', sans-serif;
         color: white;
     }
