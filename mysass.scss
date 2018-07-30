@@ -16,3 +16,24 @@ $navbar-gradient: linear-gradient(to right, #23c4da, #00b5e4, #00a4ed, #0091f0, 
         font-family: 'Dosis', sans-serif;
     }
 }
+
+$portfolio-gradient: linear-gradient(to bottom right, #1aade9, #1712eb);
+$completed-gradient: linear-gradient(to bottom right, #56D0FD, #56FD7D);
+$future-gradient: linear-gradient(to bottom right, #FDBD56, #FD56B6);
+.card {
+    border-radius: 10px;
+    padding: 30px;
+    border: 0;
+}
+.portfolio-card {
+    @extend .card;
+    background: $portfolio-gradient;
+}
+.complete-card {
+    @extend .card;
+    background: $completed-gradient;
+}
+.future-card {
+    @extend .card;
+    background: $future-gradient;
+}

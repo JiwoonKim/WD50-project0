@@ -19,15 +19,12 @@ body {
     }
 }
 .col-md-6 {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-.col-md-4 {
-    padding: 30px;
+    padding: 20px;
 }
 
 /* about.html */
 #about-container {
+    margin-top: 30px;
     height: 80%;
 }
 #about-img {
@@ -56,14 +53,4 @@ body {
 }
 .table-p {
     margin: 0;
-}
-
-/* portfolio.html */
-.card {
-
-}
-
-/* challenges.html */
-.carousel-item {
-    width: ;
 }
