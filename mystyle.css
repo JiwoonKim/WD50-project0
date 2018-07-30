@@ -60,6 +60,7 @@ body {
 }
 .table {
     background-color: floralwhite;
+    margin-right: 10px;
 }
 .table-p {
     margin: 0;

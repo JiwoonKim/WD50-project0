@@ -19,9 +19,12 @@
   border-radius: 10px;
   padding: 30px;
   border: 0; }
+  .card .card-title .card-text, .portfolio-card .card-title .card-text, .complete-card .card-title .card-text, .future-card .card-title .card-text {
+    font-family: 'Dosis', sans-serif;
+    color: white; }
 
 .portfolio-card {
-  background: linear-gradient(to bottom right, #1aade9, #1712eb); }
+  background: linear-gradient(to bottom right, #e261f5, #5b2ea4); }
 
 .complete-card {
   background: linear-gradient(to bottom right, #56D0FD, #56FD7D); }

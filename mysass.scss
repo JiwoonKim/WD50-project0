@@ -6,7 +6,6 @@ $navbar-gradient: linear-gradient(to right, #23c4da, #00b5e4, #00a4ed, #0091f0, 
 .col-md-6 {
     font-family: 'Nanum Brush Script', cursive;
     font-size: 1.5rem;
-
     #name {
         font-size: 4rem;
     }
@@ -22,27 +21,26 @@ $navbar-gradient: linear-gradient(to right, #23c4da, #00b5e4, #00a4ed, #0091f0, 
         font-size: 1rem;
     }
 }
-
-$portfolio-gradient: linear-gradient(to bottom right, #1869e3, #0b041e);
-$completed-gradient: linear-gradient(to bottom right, #56D0FD, #56FD7D);
-$future-gradient: linear-gradient(to bottom right, #FDBD56, #FD56B6);
 .card {
     border-radius: 10px;
     padding: 30px;
     border: 0;
-    .card-body {
+    .card-title .card-text {
         font-family: 'Dosis', sans-serif;
         color: white;
     }
 }
+$portfolio-gradient: linear-gradient(to bottom right, #e261f5, #5b2ea4);
 .portfolio-card {
     @extend .card;
     background: $portfolio-gradient;
 }
+$completed-gradient: linear-gradient(to bottom right, #56D0FD, #56FD7D);
 .complete-card {
     @extend .card;
     background: $completed-gradient;
 }
+$future-gradient: linear-gradient(to bottom right, #FDBD56, #FD56B6);
 .future-card {
     @extend .card;
     background: $future-gradient;
