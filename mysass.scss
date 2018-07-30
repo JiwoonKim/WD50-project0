@@ -30,6 +30,10 @@ $future-gradient: linear-gradient(to bottom right, #FDBD56, #FD56B6);
     border-radius: 10px;
     padding: 30px;
     border: 0;
+    .card-body {
+        font-family: 'Dosis', sans-serif;
+        color: white;
+    }
 }
 .portfolio-card {
     @extend .card;

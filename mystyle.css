@@ -9,6 +9,9 @@ body {
 .navbar-brand {
     font-size: 2rem;
 }
+.active {
+    border-bottom: 1px blue;
+}
 @media (min-width: 1200px) {
     .container-fluid {
         width: 85%;
