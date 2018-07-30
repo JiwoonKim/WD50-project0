@@ -9,9 +9,10 @@ body {
     }
 }
 .page-head {
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     font-family: 'Nanum Brush Script', cursive;
+    font-size: 3.5rem;
 }
 
 
