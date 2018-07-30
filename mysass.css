@@ -2,12 +2,27 @@
   background: linear-gradient(to right, #23c4da, #00b5e4, #00a4ed, #0091f0, #127aeb); }
 
 .col-md-6 {
-  font-family: 'Nanum Brush Script', cursive; }
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 2rem; }
   .col-md-6 #name {
     font-size: 4rem; }
   .col-md-6 #quote {
     font-style: italic; }
   .col-md-6 #intro {
     font-family: 'Dosis', sans-serif; }
+
+.card, .portfolio-card, .complete-card, .future-card {
+  border-radius: 10px;
+  padding: 30px;
+  border: 0; }
+
+.portfolio-card {
+  background: linear-gradient(to bottom right, #1aade9, #1712eb); }
+
+.complete-card {
+  background: linear-gradient(to bottom right, #56D0FD, #56FD7D); }
+
+.future-card {
+  background: linear-gradient(to bottom right, #FDBD56, #FD56B6); }
 
 /*# sourceMappingURL=mysass.css.map */
