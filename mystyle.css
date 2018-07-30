@@ -33,12 +33,6 @@ body {
 #about-img {
     width: 100%;
 }
-#name {
-    font-family: 'Nanum Brush Script', cursive;
-}
-#quote {
-    font-style: italic;
-}
 
 /* traveled.html */
 #map {

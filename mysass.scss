@@ -3,3 +3,16 @@ $navbar-gradient: linear-gradient(to right, #23c4da, #00b5e4, #00a4ed, #0091f0, 
     background: $navbar-gradient;
 }
 
+.col-md-6 {
+    font-family: font-family: 'Nanum Brush Script', cursive;
+
+    #name {
+        font-size: 4rem;
+    }
+    #quote {
+        font-style: italic;
+    }
+    #intro {
+        font-family: 'Dosis', sans-serif;
+    }
+}
