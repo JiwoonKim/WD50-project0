@@ -32,4 +32,7 @@
 .future-card {
   background: linear-gradient(to bottom right, #FDBD56, #FD56B6); }
 
+#slide-row {
+  height: 400px; }
+
 /*# sourceMappingURL=mysass.css.map */

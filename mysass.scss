@@ -45,3 +45,6 @@ $future-gradient: linear-gradient(to bottom right, #FDBD56, #FD56B6);
     @extend .card;
     background: $future-gradient;
 }
+#slide-row {
+    height: 400px;
+}
