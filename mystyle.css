@@ -1,6 +1,6 @@
 /* application overall */
 body {
-    background-color: LightGray;
+    background-color: antiquewhite;
 }
 
 @media (min-width: 1200px) {
@@ -38,8 +38,8 @@ body {
         height: 400px;
     }
 }
-.table-head {
-    background-color: LightGray;
+.table {
+    background-color: floralwhite;
 }
 .table-p {
     margin: 0;
