@@ -23,10 +23,13 @@ body {
 
 /* about.html */
 #about-container {
-    margin-top: 5%;
+    height: 80%;
 }
 #about-img {
     width: 100%;
+}
+#name {
+    font-family: 'Nanum Brush Script', cursive;
 }
 #quote {
     font-style: italic;
