@@ -1,4 +1,13 @@
 .navbar {
   background: linear-gradient(to right, #23c4da, #00b5e4, #00a4ed, #0091f0, #127aeb); }
 
+.col-md-6 {
+  font-family: 'Nanum Brush Script', cursive; }
+  .col-md-6 #name {
+    font-size: 4rem; }
+  .col-md-6 #quote {
+    font-style: italic; }
+  .col-md-6 #intro {
+    font-family: 'Dosis', sans-serif; }
+
 /*# sourceMappingURL=mysass.css.map */
