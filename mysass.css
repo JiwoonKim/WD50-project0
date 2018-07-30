@@ -18,7 +18,8 @@
 .card, .portfolio-card, .complete-card, .future-card {
   border-radius: 10px;
   padding: 30px;
-  border: 0; }
+  border: 0;
+  background-color: transparent; }
   .card .card-title, .portfolio-card .card-title, .complete-card .card-title, .future-card .card-title, .card .card-text, .portfolio-card .card-text, .complete-card .card-text, .future-card .card-text {
     font-family: 'Dosis', sans-serif;
     color: white; }
@@ -34,5 +35,9 @@
 
 #slide-row {
   height: 400px; }
+
+.slide-img {
+  height: 400px;
+  width: auto; }
 
 /*# sourceMappingURL=mysass.css.map */
