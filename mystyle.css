@@ -40,10 +40,6 @@ body {
 #about-img {
     width: 100%;
 }
-/* portfolio.html */
-.carousel-inner > .item > img {
-     margin:auto;
-}
 
 /* traveled.html */
 #map {
