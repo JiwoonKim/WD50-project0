@@ -1,4 +1,4 @@
-# Project 0
+# Project 0: My First Web Page
 
 For CS50 Web Programming with Python and JavaScript.
 
