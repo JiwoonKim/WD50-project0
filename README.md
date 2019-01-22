@@ -10,12 +10,12 @@
 
 | about.html | portfolio.html |
 :-------------------------:|:-------------------------:
-<img src="screenshots/about.PNG" width="350"> | <img src="screenshots/portfolio.PNG" width="350">
+<img src="screenshots/about.PNG" width="400"> | <img src="screenshots/portfolio.PNG" width="400">
 | introduction page about myself | portfolio page of school assignments |
 
 | challenges.html | traveled.html |
 :-------------------------:|:-------------------------:
-<img src="screenshots/chal.PNG" width="350"> | <img src="screenshots/traveled.PNG" width="350">
+<img src="screenshots/chal.PNG" width="400"> | <img src="screenshots/traveled.PNG" width="400">
 | collection page for challenges | travel mark page for places I have gone to |
 
 - A total of 4 html files (pages) can be navigated from the top navigation bar made from bootstrap template.
