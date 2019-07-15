@@ -1,4 +1,4 @@
-# My First Web Page
+# First Web Page
 > Practicing Front-end development using html, css, bootstrap, sass, and a little bit of javascript.
 
 > html, css, bootstrap, sass와 약간의 javascript를 바탕으로 한 프론트엔드 웹 개발 연습.
